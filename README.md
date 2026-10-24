@@ -80,4 +80,4 @@ ManageSystem/
 
 ## 授權
 
-課程學術專案，未宣告授權條款；內嵌第三方僅 `css/bootstrap-4.4.1.css`（Bootstrap 4.4.1，MIT 授權）。
+未宣告授權條款；內嵌第三方僅 `css/bootstrap-4.4.1.css`（Bootstrap 4.4.1，MIT 授權）。
