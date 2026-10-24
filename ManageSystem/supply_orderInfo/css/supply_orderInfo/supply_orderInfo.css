@@ -1,0 +1,184 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background: #202223;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10pt;
+	color: #707070;
+
+
+}
+
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+}
+
+p, ol, ul {
+	margin-top: 0px;
+}
+
+p {
+	line-height: 180%;
+}
+
+strong {
+}
+
+a {
+	color: #FEE722;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a img {
+	border: none;
+}
+
+img.border {
+}
+
+img.alignleft {
+	float: left;
+}
+
+img.alignright {
+	float: right;
+}
+
+img.aligncenter {
+	margin: 0px auto;
+}
+
+hr {
+	display: none;
+}
+
+/** WRAPPER */
+
+#wrapper {
+}
+
+#banner-wrapper
+{
+	overflow: hidden;
+	height: 500px;
+	background: url(images/topImage.jpg) no-repeat top center;
+	background-size: cover;
+}
+
+#header-wrapper
+{
+	background: #181818;
+}
+
+.container {
+	width: 1200px;
+	margin: 0px auto;
+}
+
+.clearfix {
+	clear: both;
+}
+
+/** HEADER */
+
+#header {
+	overflow: hidden;
+	height: 60px;
+}
+
+
+
+/** MENU */
+
+#menu {
+	position: relative;
+}
+
+#menu ul {
+	margin: 0px;
+	padding: 0px;
+	margin-left: 130px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	float: left;
+	padding: 0px 2em;
+	padding-left: 250px;/*兩個格子之間寬度*/
+	text-align:center;
+}
+
+#menu a {
+	display: block;
+	line-height: 60px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #FFF;
+}
+
+#menu a:hover {
+	text-decoration: underline;
+}
+
+/* Page */
+
+#page {
+	overflow: hidden;
+	padding: 20px 20px 40px 20px;
+	
+}
+/*form*/
+
+.formPage {
+    background-color: rgba(0, 0, 0);
+    background-repeat:no-repeat;
+	width: 900px;
+    margin: 1px auto;
+	/*************/
+    font-weight: 700;
+    font-size: large;
+	color:white;
+    /*************/
+    border: 5px dashed gold;
+    font-size: 15px;
+    line-height: 1.5em;
+    text-indent: 20px;
+    height:900px;
+}
+
+#content
+{	
+	border: 8px double rgb(150, 254, 196);
+	width: 800px;
+    margin: 0px auto;
+}
+#content table
+{
+	border: 8px double rgb(150, 254, 196);	
+	width: 800px;
+	height:80%;
+    margin: 1px auto;
+	padding: 0;
+	text-align: center;
+	line-height:25px;
+}
+#pageCount{
+	width: 300px;
+	margin: 1px auto;
+	text-align: center;
+}
+.input{
+	text-align: left;
+	font-size: 18px;
+	color:white;
+}

@@ -1,0 +1,8 @@
+# Dreamweaver 同步中繼資料（本地保留，不入版控）
+_notes/
+
+# 系統與編輯器噪音
+Thumbs.db
+desktop.ini
+.DS_Store
+*.log
